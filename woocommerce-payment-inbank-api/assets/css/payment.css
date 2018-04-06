@@ -1,0 +1,50 @@
+.payment_box.payment_method_inbank {
+    overflow: hidden;
+    background: #0097ff;
+    padding: 20px;
+    margin-top: 20px;
+}
+.payment_box.payment_method_inbank label {
+    display: block;
+    float: left;
+    width: 50%;
+    padding-bottom: 20px;
+}
+.payment_box.payment_method_inbank label:nth-of-type(odd) {
+    padding-right: 10px;
+}
+.payment_box.payment_method_inbank label:nth-of-type(even) {
+    padding-left: 10px;
+}
+.payment_box.payment_method_inbank label:last-of-type {
+    float: none;
+    width: 100%;
+    clear: both;
+    padding: 0;
+}
+.payment_box.payment_method_inbank label select {
+    display: block;
+    width: 100%;
+    height: 34px;
+}
+.payment_box.payment_method_inbank label select,
+.payment_box.payment_method_inbank label input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    color: #000;
+    margin-bottom: 0;
+}
+.payment_methods li[class*="inbank"] {
+    width: auto;
+}
+.payment_methods li[class*="inbank"] .inner {
+    background: #0097ff;
+}
+.payment_methods li[class*="inbank"] .inner > label {
+    display: inline-block;
+}
+[for*="inbank"] img {
+    max-width: 210px;
+}
