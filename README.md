@@ -23,4 +23,4 @@ Code is written using WordPress best coding practices.
 </ul>
 
 ### License
-This project is licensed under the MIT License - see the <a href="https://github.com/EstPress/WooCommerce-Inbank-automatic-payment-gateway/blob/master/LICENSE">LICENSE</a> file for details
+This project is licensed under the MIT License - see the <a href="https://github.com/EstPress/woocommerce-inbank-payment-gateway/blob/master/LICENSE">LICENSE</a> file for details
